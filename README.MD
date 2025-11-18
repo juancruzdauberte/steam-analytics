@@ -1,4 +1,4 @@
-# Análisis Exploratorio de Datos (EDA): Juegos Populares de PC (Steam)
+# Análisis de Datos juegos de PC en Steam
 
 Este repositorio contiene un análisis exploratorio de datos (EDA) del dataset "Top PC Games: Metacritic vs Steam Popularity". El objetivo principal es limpiar, analizar y visualizar los datos para descubrir patrones y relaciones de la opinión de los usuarios de Steam y la popularidad de los juegos de PC.
 
