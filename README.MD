@@ -1,6 +1,6 @@
-# Análisis Exploratorio de Datos (EDA): Juegos Populares de PC (Steam & Metacritic)
+# Análisis Exploratorio de Datos (EDA): Juegos Populares de PC (Steam)
 
-Este repositorio contiene un análisis exploratorio de datos (EDA) del dataset "Top PC Games: Metacritic vs Steam Popularity". El objetivo principal es limpiar, analizar y visualizar los datos para descubrir patrones y relaciones entre la recepción de la crítica (Metacritic), la opinión de los usuarios (Steam) y la popularidad de los juegos de PC.
+Este repositorio contiene un análisis exploratorio de datos (EDA) del dataset "Top PC Games: Metacritic vs Steam Popularity". El objetivo principal es limpiar, analizar y visualizar los datos para descubrir patrones y relaciones de la opinión de los usuarios de Steam y la popularidad de los juegos de PC.
 
 **Dataset original en Kaggle:** [Top PC Games: Metacritic vs Steam Popularity](https://www.kaggle.com/datasets/alyahmedts13/top-pc-games-metacritic-vs-steam-popularity)
 
@@ -34,22 +34,22 @@ Este proyecto busca responder preguntas clave sobre el éxito y la recepción de
 El dataset (`.csv`) contiene las siguientes columnas:
 
 - `appid`: ID de aplicación de Steam único para cada juego.
-- `nombre`: Título oficial del juego en Steam.
-- `revelador`: Desarrollador o estudio responsable del juego.
-- `editor`: Compañía que publicó el juego en Steam.
-- `puntuación_rank`: Puntuación de clasificación de SteamSpy (si está disponible).
-- `positivo`: Número de reseñas positivas de usuarios.
-- `negativo`: Número de reseñas negativas de usuarios.
-- `puntuación de usuario`: Valor de la puntuación del usuario de SteamSpy (0 si no está disponible).
-- `propietarios`: Rango estimado de propiedad (ej., “1,000,000 .. 2,000,000”).
-- `promedio_para_siempre`: Tiempo total de juego promedio (en minutos).
-- `promedio_2 semanas`: Tiempo promedio de juego (en minutos) durante las últimas dos semanas.
-- `mediana_para siempre`: Tiempo total de juego medio (en minutos).
-- `mediana_2 semanas`: Tiempo medio de juego (en minutos) durante las últimas dos semanas.
-- `precio`: Precio actual del juego en centavos (ej., 999 = $9.99).
-- `precio inicial`: Precio original del juego antes de descuentos (en centavos).
-- `descuento`: Porcentaje de descuento actual (0–100).
-- `Unidad de Cuidados Intensivos`: Número actual de jugadores simultáneos (CCU).
+- `name`: Título oficial del juego en Steam.
+- `developer`: Desarrollador o estudio responsable del juego.
+- `publisher`: Compañía que publicó el juego en Steam.
+- `score_rank`: Puntuación de clasificación de SteamSpy (si está disponible).
+- `positive`: Número de reseñas positivas de usuarios.
+- `negative`: Número de reseñas negativas de usuarios.
+- `userscore`: Valor de la puntuación del usuario de SteamSpy (0 si no está disponible).
+- `owners`: Rango estimado de propiedad (ej., “1,000,000 .. 2,000,000”).
+- `average_forever: Tiempo total de juego promedio (en minutos).
+- `average_2weeks`: Tiempo promedio de juego (en minutos) durante las últimas dos semanas.
+- `median_forever`: Tiempo total de juego medio (en minutos).
+- `median_2weeks`: Tiempo medio de juego (en minutos) durante las últimas dos semanas.
+- `price`: Precio actual del juego en centavos (ej., 999 = $9.99).
+- `initialprice`: Precio original del juego antes de descuentos (en centavos).
+- `discount`: Porcentaje de descuento actual (0–100).
+- `ccu`: Número actual de jugadores simultáneos (CCU).
 
 ---
 
