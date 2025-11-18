@@ -42,7 +42,7 @@ El dataset (`.csv`) contiene las siguientes columnas:
 - `negative`: Número de reseñas negativas de usuarios.
 - `userscore`: Valor de la puntuación del usuario de SteamSpy (0 si no está disponible).
 - `owners`: Rango estimado de propiedad (ej., “1,000,000 .. 2,000,000”).
-- `average_forever: Tiempo total de juego promedio (en minutos).
+- `average_forever`: Tiempo total de juego promedio (en minutos).
 - `average_2weeks`: Tiempo promedio de juego (en minutos) durante las últimas dos semanas.
 - `median_forever`: Tiempo total de juego medio (en minutos).
 - `median_2weeks`: Tiempo medio de juego (en minutos) durante las últimas dos semanas.
