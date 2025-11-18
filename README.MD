@@ -55,4 +55,4 @@ El dataset (`.csv`) contiene las siguientes columnas:
 
 ## ✍️ Autor
 
-- **Juan Cruz Dauberte** - [Tu_LinkedIn](https://www.linkedin.com/in/juancruzdauberte/)
+- **Juan Cruz Dauberte** - [Juan Cruz Dauberte](https://www.linkedin.com/in/juancruzdauberte/)
